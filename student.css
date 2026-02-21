@@ -1,0 +1,172 @@
+body {
+    background-color:rgba(0, 0, 0, 0.816);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://wallpaperbat.com/img/312976-free-download-log-on-to-your-bank-account-on-a-laptop-logging.png);
+    background-size: cover;
+}
+a {
+    text-decoration: none;
+    color: #04412c;
+}
+
+a:hover {
+    color: #ff6600;
+}
+
+header {
+    background-color: #1718288f;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1500px;
+    position: absolute;
+    top: 0;
+}
+
+.logo img {
+    margin-left: 13px;
+    width: 70px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    font-size: larger;
+    padding-right: 13px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(15, 105, 52);
+    font-weight: bold;
+}
+
+.container {
+    background: rgba(95, 97, 113, 0.542);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center ;
+    width: 350px;
+    animation: fadeIn 0.6s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+nav div{
+    text-align: center;
+    padding-bottom: 30px;
+}
+    
+
+
+h2 {
+    margin-bottom: 20px;
+    color: #060202b1;
+    font-weight: bolder;
+}
+
+.input-group {
+    margin: 15px 0;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #110d0d;
+    font-weight: bold;
+    
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #f9f8f8;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.input-group input:focus {
+    border-color: #ff7e5f;
+    box-shadow: 0px 0px 8px rgba(255, 126, 95, 0.5);
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #ff7e5f;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #e76a4d;
+}
+
+.toggle-form {
+    margin-top: 15px;
+    font-size: 14px;
+    color: rgb(237, 224, 224);
+}
+
+.toggle-form span {
+    color: #ff7e5f;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.toggle-form span:hover {
+    text-decoration: underline;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0);}
+}
+
+
+footer {
+    background-color: rgba(8, 4, 4, 0.481);
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    position:fixed;
+    bottom:0;
+}
+
+footer p {
+    margin: 5px 0;
+    color: #e3dfdf;
+}
+
+footer a {
+    color: #d8751e;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

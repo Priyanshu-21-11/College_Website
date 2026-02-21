@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Admission</title>
+    <link rel="stylesheet" href="admission.css">
+    <script src="script.js"></script>
+</head>
+
+    <header>
+        <div class="logo">
+            <img src="https://gcran.org/Content/images/SVG%20LOGO%20EDIT.svg" alt="Gossner College Logo" />
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html"><u>Home</u></a></li>
+                <li><a href="courses.html"><u>Courses</u></a></li>
+                <li><a href="admission.html"><u>Admission</u></a></li>
+                <li><a href="student.html"><u>Student Corner</u></a></li>
+                <li><a href="about.html" target="_blank"><u>About Us</u></a></li>
+            </ul>
+        </nav>
+    </header>
+<body>
+    <section class="admission-container">
+        <h2>Admission Form</h2>
+        <form action="#" method="post">
+            
+            <!-- Personal Information Section -->
+            <fieldset>
+                <legend>Personal Information :</legend>
+
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="father_name">Father's Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your father's name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="name">Mother's Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your mother's name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="address">Address:</label>
+                    <textarea id="address" name="address" rows="3" placeholder="Enter your address" required></textarea>
+                </div>
+            </fieldset>
+
+            <!-- Educational Details Section -->
+            <fieldset>
+                <legend>Educational Details :</legend>
+
+                <!-- High School -->
+                <h3>High School (10th)</h3>
+                <div class="form-group">
+                    <label for="highschool-name">School Name:</label>
+                    <input type="text" id="highschool-name" name="highschool-name" placeholder="Enter school name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="highschool-board">Board:</label>
+                    <input type="text" id="highschool-board" name="highschool-board" placeholder="CBSE, ICSE, State Board, etc." required>
+                </div>
+
+                <div class="form-group">
+                    <label for="highschool-year">Passing Year:</label>
+                    <input type="number" id="highschool-year" name="highschool-year" placeholder="YYYY" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="highschool-score">Percentage/CGPA:</label>
+                    <input type="text" id="highschool-score" name="highschool-score" placeholder="Enter percentage or CGPA" required>
+                </div>
+
+                <!-- Intermediate (12th) -->
+                <h3>Intermediate (12th)</h3>
+                <div class="form-group">
+                    <label for="intermediate-name">School/College Name:</label>
+                    <input type="text" id="intermediate-name" name="intermediate-name" placeholder="Enter school/college name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="intermediate-board">Board:</label>
+                    <input type="text" id="intermediate-board" name="intermediate-board" placeholder="CBSE, ICSE, State Board, etc." required>
+                </div>
+
+                <div class="form-group">
+                    <label for="intermediate-year">Passing Year:</label>
+                    <input type="number" id="intermediate-year" name="intermediate-year" placeholder="YYYY" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="intermediate-score">Percentage/CGPA:</label>
+                    <input type="text" id="intermediate-score" name="intermediate-score" placeholder="Enter percentage or CGPA" required>
+                </div>
+
+                <!-- Undergraduate (If applicable) -->
+                <h3>Undergraduate (If Applying for Postgraduate Course)</h3>
+                <div class="form-group">
+                    <label for="ug-college">College Name:</label>
+                    <input type="text" id="ug-college" name="ug-college" placeholder="Enter college name">
+                </div>
+
+                <div class="form-group">
+                    <label for="ug-university">University:</label>
+                    <input type="text" id="ug-university" name="ug-university" placeholder="Enter university name">
+                </div>
+
+                <div class="form-group">
+                    <label for="ug-year">Passing Year:</label>
+                    <input type="number" id="ug-year" name="ug-year" placeholder="YYYY">
+                </div>
+
+                <div class="form-group">
+                    <label for="ug-score">CGPA/Percentage:</label>
+                    <input type="text" id="ug-score" name="ug-score" placeholder="Enter CGPA or percentage">
+                </div>
+            </fieldset>
+
+            <!-- Course Selection Section -->
+            <fieldset>
+                <legend>Select Course :</legend>
+
+                <div class="form-group">
+                    <label for="course">Choose Your Course:</label>
+                    <select id="course" name="course">
+                        <option value="btech">B.TECH</option>
+                        <option value="bba">BBA</option>
+                        <option value="bsc">B.SC</option>
+                        <option value="mba">MBA</option>
+                        <option value="bca">BCA</option>
+                        <option value="bcom">B.COM</option>
+                        <option value="ba">BA</option>
+                        <option value="ba">M.TECH</option>
+                        <option value="ba">M.COM</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="why-join">Why do you want to join?</label>
+                    <textarea id="why-join" name="why-join" rows="4" placeholder="Write a short reason..." required></textarea>
+                </div>
+            </fieldset>
+
+            <button type="submit">Submit Application</button>
+
+        </form>
+    </section>
+
+    <footer>
+        <p>Contact: info@gossnercollege.edu | Phone: 123-456-7890</p>
+        <p>Follow us on: 
+            <a href="https://facebook.com/gossnercollege" target="_blank">Facebook</a>, 
+            <a href="https://instagram.com/gossnercollege" target="_blank">Instagram</a>
+        </p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,131 @@
+
+/* Google Font */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #101e2d;
+    color: #333;
+    background-image:url(https://sfwallpaper.com/images/college-backgrounds-10.jpg);
+}
+a {
+    text-decoration: none;
+    color: #04412c;
+}
+
+a:hover {
+    color: #ff6600;
+}
+
+header {
+    background-color: #ebf2ee;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    width: 70px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    font-size: larger;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(15, 105, 52);
+    font-weight: bold;
+}
+
+.admission-container {
+    width: 60%;
+    margin: 30px auto;
+    background: rgba(182, 175, 175, 0.647);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(57, 57, 57, 0.578);
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #0e492d;
+    margin-bottom: 20px;
+    font-size: xx-large;
+}
+h3{
+    text-align:center;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+legend {
+    font-weight: bold;
+    color: #11365e;
+    font-size: 18px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #320808;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    background: #08111c;
+    color: white;
+    padding: 12px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+footer {
+    background-color: #010911;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #ff6600;
+}
+
+@media (max-width: 500px) {
+    .admission-container {
+        width: 90%;
+    }
+}
